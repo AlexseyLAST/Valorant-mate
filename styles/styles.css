@@ -1,0 +1,59 @@
+@import url(/styles/blocks/navbar.css);
+@import url(/styles/blocks/main.css);
+@import url(/styles/blocks/about.css);
+@import url(/styles/blocks/enumeration.css);
+@import url(/styles/blocks/contacts.css);
+@import url(/styles/blocks/footer.css);
+@import url(/styles/blocks/guide.css);
+@import url(/styles/blocks/agents.css);
+*,*::before, *:after{   /* ОБНУЛЕНИЯ */
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    background-color: #0F1923;
+}
+
+.container{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.anchor{
+    position: relative;
+    top: -70px;
+    width: 0px;
+    height: 0px;
+}
+
+@media screen and (max-width: 1180px){
+    .container{
+        max-width: 980px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .container{
+        max-width: 775px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .container{
+        max-width: 570px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 525px){
+    .container{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+
