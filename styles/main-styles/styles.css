@@ -1,11 +1,11 @@
-@import url(styles/blocks/navbar.css);
-@import url(styles/blocks/main.css);
-@import url(styles/blocks/about.css);
-@import url(styles/blocks/enumeration.css);
-@import url(styles/blocks/contacts.css);
-@import url(styles/blocks/footer.css);
-@import url(styles/blocks/guide.css);
-@import url(styles/blocks/agents.css);
+@import url(.styles/blocks/navbar.css);
+@import url(.styles/blocks/main.css);
+@import url(.styles/blocks/about.css);
+@import url(.styles/blocks/enumeration.css);
+@import url(.styles/blocks/contacts.css);
+@import url(.styles/blocks/footer.css);
+@import url(.styles/blocks/guide.css);
+@import url(.styles/blocks/agents.css);
 *,*::before, *:after{   /* ОБНУЛЕНИЯ */
     padding: 0;
     margin: 0;
