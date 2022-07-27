@@ -1,0 +1,165 @@
+.enumeration{
+    width: 100%;
+    height: 555px;
+}
+
+.enumeration__container{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    background: #FA4454;
+    border-radius: 20px;
+}
+
+.enumeration__items{
+    display: flex;
+    width: 1120px;
+    height: 300px;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    padding-top: 75px;
+}
+
+.enumeration__link{
+    text-decoration: none;
+}
+
+.item__block{
+    z-index: 1;
+    width: 250px;
+    height: 300px;
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.6);
+    filter: brightness(80%);
+    transition: all 0.3s;
+}
+
+.item__block:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    filter: brightness(100%);
+}
+
+.block__img{
+    width: 250px;
+    height: 300px;
+}
+
+.block__name{
+    position: relative;
+    bottom: 190px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 1180px){
+    .enumeration{
+        width: 100%;
+        height: 500px;
+    }
+    
+    .enumeration__container{
+        width: 100%;
+        height: 400px;
+    }
+    
+    .enumeration__items{
+        width: 940px;
+        height: 300px;
+        margin-left: 15px;
+        padding-top: 48px;
+    }
+    
+    .item__block{
+        width: 220px;
+        height: 300px;
+        margin-left: 15px;
+    }
+
+    .block__img{
+        width: 220px;
+        height: 300px;
+    }
+     
+    .block__name{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .enumeration{
+        width: 100%;
+        height: 898px;
+    }
+    
+    .enumeration__container{
+        width: 100%;
+        height: 798px;
+    }
+    
+    .enumeration__items{
+        width: 600px;
+        height: 700px;
+        margin: 0 auto;
+        padding-top: 50px;
+    }
+    
+    .item__block{
+        width: 250px;
+        height: 300px;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+
+    .block__img{
+        width: 250px;
+        height: 300px;
+    }
+     
+    .block__name{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .enumeration{
+        width: 100%;
+        height: 1500px;
+    }
+    
+    .enumeration__container{
+        width: 100%;
+        height: 1447px;
+    }
+    
+    .enumeration__items{
+        width: 250px;
+        height: 1400px;
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+    
+    .item__block{
+        width: 250px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+
+    .block__img{
+        width: 250px;
+        height: 300px;
+    }
+     
+    .block__name{
+        font-size: 40px;
+    }
+}
+
+
+

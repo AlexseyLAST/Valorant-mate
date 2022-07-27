@@ -1,0 +1,166 @@
+.agents{
+    width: 100%;
+    height: 3310px;
+}
+
+.item__agents{
+    width: 100%;
+    height: 3298px;
+    margin-left: -55px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.agent__card{
+    width: 296px;
+    height: 400px;
+    margin-left: 97px;
+    border-radius: 20px;
+    background-color: #DC3D4B;
+}
+
+.agent__card:hover{
+    box-shadow: 0.4em 0.4em 5px rgba(255, 105, 105, 0.5);
+}
+
+.card__item{
+    width: 280px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+.agent__name{
+    margin-top: 22px;
+    font-family: 'Poppins';
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FAFAFA;
+}
+
+.agent__img{
+    width: 280px;
+    height: 280px;
+}
+
+.agent__shadow{
+    width: 200.72px;
+    height: 7.92px;
+    margin-top: -10px;
+    margin: 0 auto;
+    background: rgba(44, 43, 43, 0.5);
+    filter: blur(10px);
+}
+
+.agent__card-center{
+    margin-left: 490px;
+}
+
+@media screen and (max-width: 1180px){
+    .agents{
+        width: 100%;
+        height: 4900px;
+    }
+    
+    .item__agents{
+        width: 100%;
+        height: 4000px;
+        margin-left: 0px;
+    }
+    
+    .agent__card{
+        margin-top: 82px;
+        margin: 0 auto;
+    }
+    
+    .agent__card-center{
+        margin-left: 290px;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .agents{
+        width: 100%;
+        height: 4800px;
+    }
+    
+    .item__agents{
+        width: 100%;
+        height: 4800px;
+    }
+    
+    .agent__card-center{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .agents{
+        width: 100%;
+        height: 9250px;
+    }
+    
+    .item__agents{
+        width: 100%;
+        height: 4000px;
+        margin-top: -100px;
+    }
+    
+    .agent__card{
+        margin-top: 82px;
+    }
+}
+
+
+@media screen and (max-width: 557px){
+    .agents{
+        width: 100%;
+        height: 9250px;
+    }
+    
+    .item__agents{
+        width: 100%;
+        height: 8500px;
+        margin-top: -100px;
+    }
+    
+    .agent__card{
+        margin-top: 82px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .item__agents{
+        margin-top: 20px;
+    }
+
+    .agent__card{
+        width: 260px;
+        height: 380px;
+        margin: 0 auto;
+    }
+
+    .card__item{
+        width: 280px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    
+    .agent__name{
+        margin-left: -22px;
+    }
+    
+    .agent__img{
+        width: 280px;
+        height: 280px;
+        margin: 0 auto;
+    }
+    
+    .agent__shadow{
+        width: 200.72px;
+        height: 7.92px;
+        margin-top: -10px;
+        margin: 0 auto;
+    }
+}
